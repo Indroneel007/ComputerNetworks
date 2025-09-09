@@ -19,7 +19,7 @@ func main() {
 			log.Fatal(err)
 		}
 	}()
-
+	//tyjtyjty
 	b, err := ioutil.ReadAll(file)
 	fmt.Printf("Data as string: %s\n", b)
 }
